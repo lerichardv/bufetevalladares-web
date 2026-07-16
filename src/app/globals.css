@@ -1,26 +1,105 @@
 @import "tailwindcss";
 
+@theme {
+  --font-sans: var(--font-sans), system-ui, sans-serif;
+  --font-serif: var(--font-serif), Georgia, serif;
+  
+  --color-gold-50: #fdfaf2;
+  --color-gold-100: #fbf5e6;
+  --color-gold-200: #f5e6c4;
+  --color-gold-300: #edd297;
+  --color-gold-400: #e0b463;
+  --color-gold-500: #c98e3b;
+  --color-gold-600: #ad702b;
+  --color-gold-700: #8c5324;
+  --color-gold-800: #714221;
+  --color-gold-900: #5d361e;
+  --color-gold-950: #361c0d;
+
+  /* Law Firm Premium Palette */
+  --color-brand-navy-dark: #0e0e22;
+  --color-brand-navy-medium: #161633;
+  --color-brand-navy-light: #22224c;
+  --color-brand-gold: #bab668;
+  --color-brand-gold-hover: #d2ce8a;
+  --color-brand-gold-dark: #8c8949;
+  --color-brand-gold-light: #dfdc9e;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0e0e22;
+  --foreground: #f4f4f7;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Smooth selection colors fitting the brand */
+::selection {
+  background-color: rgba(186, 182, 104, 0.25);
+  color: #dfdc9e;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  line-height: 1.75;
 }
+
+p, li, .text-xs, .text-sm {
+  line-height: 1.8;
+}
+
+/* Custom premium scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0e0e22;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a3e;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bab668;
+}
+
+/* Micro-animations and Utilities */
+.text-glow {
+  text-shadow: 0 0 15px rgba(186, 182, 104, 0.4);
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 20px rgba(186, 182, 104, 0.08);
+}
+
+.gold-border-glow:hover {
+  box-shadow: 0 0 30px rgba(186, 182, 104, 0.18);
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: rgba(12, 12, 30, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-down {
+  animation: slideDown 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
