@@ -383,7 +383,7 @@ export default function HomeClient() {
 									href="mailto:bufete_valladares@yahoo.com?subject=Solicitud%20de%20Cita%20%2F%20Consulta%20Legal&body=Deseo%20agendar%20una%20cita%20de%20asesor%C3%ADa%20legal."
 									className="px-8 py-4.5 bg-gradient-to-r from-brand-gold-dark via-brand-gold to-brand-gold-light hover:brightness-110 text-brand-navy-dark font-bold rounded-lg shadow-lg shadow-brand-gold/10 hover:shadow-brand-gold/25 transition-all duration-300 text-center tracking-wider text-sm uppercase"
 								>
-									Agendar Cita en Línea
+									Agendar Cita
 								</a>
 								<a
 									href="#servicios"
