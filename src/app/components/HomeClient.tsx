@@ -346,7 +346,7 @@ export default function HomeClient() {
 						loop
 						muted
 						playsInline
-						className="absolute inset-0 w-full h-full object-cover opacity-[0.7] brightness-[0.7] saturate-[0.8] mix-blend-overlay pointer-events-none"
+						className="absolute inset-0 w-full h-full object-cover opacity-[0.7] mix-blend-overlay pointer-events-none"
 					>
 						<source src="/video/bg.mp4" type="video/mp4" />
 					</video>
