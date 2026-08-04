@@ -4,10 +4,9 @@ import { ContactEmailTemplate } from "../../../emails/ContactEmailTemplate";
 import { render } from "@react-email/components";
 import * as React from "react";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: Request) {
 	try {
+		const resend = new Resend(process.env.RESEND_API_KEY || "re_dummy");
 		const { name, email, phone, area, message } = await request.json();
 
 		if (!name || !email || !message) {
