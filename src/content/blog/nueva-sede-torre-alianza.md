@@ -12,7 +12,7 @@ Con el firme propósito de continuar brindando un servicio de excelencia, comodi
 ### Nuestra Nueva Dirección
 
 A partir de este mes, les atenderemos en:
-**Edificio Torre Alianza, Anexo local 710, Boulevard San Juan Bosco, Colonia Lomas del Guijarro Sur, Tegucigalpa, Honduras.**
+**Edificio Torre Alianza Anexo 2, séptimo piso, local 710, Boulevard San Juan Bosco, Colonia Lomas del Guijarro Sur, Tegucigalpa, Honduras.**
 
 Esta nueva sede corporativa cuenta con instalaciones modernas, salas de juntas equipadas para la celebración de actos notariales de alta complejidad y un entorno seguro que cumple con los estándares más exigentes de nuestros clientes corporativos y particulares.
 

@@ -80,7 +80,7 @@ export default function PerfilProfesional() {
                   Bufete y Notaría Valladares
                 </h2>
                 <p className="text-zinc-700">
-                  El Bufete y Notaría Valladares, esta ubicado en el Edificio Torre Alianza Anexo local 710, Boulevard San Juan Bosco, colonia lomas del guijarro sur, Tegucigalpa, celular <a href="tel:+50499821117" className="text-brand-navy-dark font-medium hover:text-brand-gold transition-colors">+504 9982-1117</a>, correo electrónico <a href="mailto:bufete_valladares@yahoo.com" className="text-brand-navy-dark font-medium hover:text-brand-gold transition-colors">bufete_valladares@yahoo.com</a>, de la Ciudad de Tegucigalpa.
+                  El Bufete y Notaría Valladares, esta ubicado en el Edificio Torre Alianza Anexo 2, séptimo piso, local 710, Boulevard San Juan Bosco, colonia lomas del guijarro sur, Tegucigalpa, celular <a href="tel:+50433494077" className="text-brand-navy-dark font-medium hover:text-brand-gold transition-colors">+504 3349-4077</a>, correo electrónico <a href="mailto:bufete_valladares@yahoo.com" className="text-brand-navy-dark font-medium hover:text-brand-gold transition-colors">bufete_valladares@yahoo.com</a>, de la Ciudad de Tegucigalpa.
                 </p>
               </div>
 

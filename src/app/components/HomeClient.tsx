@@ -1044,7 +1044,7 @@ export default function HomeClient() {
 										</div>
 										<div>
 											<p className="text-[10px] text-zinc-500 tracking-wider uppercase font-semibold">Dirección Sede Central</p>
-											<p className="text-sm font-semibold text-white font-serif mt-0.5">Edificio Torre Alianza Anexo local 710, Boulevard San Juan Bosco, colonia lomas del guijarro sur, Tegucigalpa.</p>
+											<p className="text-sm font-semibold text-white font-serif mt-0.5">Edificio Torre Alianza Anexo 2, séptimo piso, local 710, Boulevard San Juan Bosco, colonia lomas del guijarro sur, Tegucigalpa.</p>
 											<a
 												href="https://www.google.com/maps/place/Torre+Alianza+2/@14.0888173,-87.180086,17z/data=!3m1!4b1!4m6!3m5!1s0x8f6fa36ab600f6c7:0x48f7b1ad6e405175!8m2!3d14.0888173!4d-87.1775111!16s%2Fg%2F11svghrbbc?entry=ttu&g_ep=EgoyMDI2MDcxNC4wIKXMDSoASAFQAw%3D%3D"
 												target="_blank"
