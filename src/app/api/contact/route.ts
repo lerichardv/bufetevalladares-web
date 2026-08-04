@@ -16,7 +16,9 @@ export async function POST(request: Request) {
 			);
 		}
 
-		const toEmail = process.env.TO_ADMIN_EMAIL || "ricardo.valladares.triminio@gmail.com";
+		const toEmails = (process.env.TO_ADMIN_EMAIL || "ricardo.valladares.triminio@gmail.com")
+			.split(",")
+			.map((email) => email.trim());
 		const fromEmail = process.env.FROM_ADMIN_EMAIL || "Contacto Bufete Valladares <onboarding@resend.dev>";
 
 		const emailHtml = await render(
@@ -31,7 +33,7 @@ export async function POST(request: Request) {
 
 		const data = await resend.emails.send({
 			from: fromEmail,
-			to: toEmail,
+			to: toEmails,
 			subject: `Nueva Consulta Legal: ${area.toUpperCase()} - ${name}`,
 			html: emailHtml,
 		});
