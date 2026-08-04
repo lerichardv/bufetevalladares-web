@@ -34,6 +34,7 @@ export async function POST(request: Request) {
 		const data = await resend.emails.send({
 			from: fromEmail,
 			to: toEmails,
+			replyTo: email,
 			subject: `Nueva Consulta Legal: ${area.toUpperCase()} - ${name}`,
 			html: emailHtml,
 		});
