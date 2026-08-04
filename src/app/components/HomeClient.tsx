@@ -681,7 +681,7 @@ export default function HomeClient() {
 											Bufete y Notaría Valladares cuenta con un equipo de trabajo profesional y con vasta experiencia para realizar y resolver diferentes conflictos de índole legal que suceden día con día.
 										</p>
 										<ul className="text-[11px] text-zinc-400 space-y-1.5 pt-2 list-disc pl-4 font-light">
-											<li>Litigio y defensa en Derecho Civil</li>
+											<li>Notarial y defensa en Derecho Civil</li>
 											<li>Conflictos de Derecho Laboral</li>
 											<li>Consultoría corporativa estratégica</li>
 										</ul>

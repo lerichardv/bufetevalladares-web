@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import HomeClient from "./components/HomeClient";
 
 export const metadata: Metadata = {
-	title: "Bufete Valladares | Asesoría Legal y Litigio de Excelencia en Honduras",
+	title: "Bufete Valladares | Asesoría Legal y Notarial de Excelencia en Honduras",
 	description: "Firma de abogados y notaría de prestigio en Tegucigalpa, Honduras. Más de 35 años de excelencia en derecho civil, laboral, trámites notariales y administrativos.",
 	keywords: [
 		"bufete de abogados Honduras",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 		"Santiago Valladares Argueta"
 	],
 	openGraph: {
-		title: "Bufete Valladares | Asesoría Legal y Litigio de Excelencia en Honduras",
+		title: "Bufete Valladares | Asesoría Legal y Notarial de Excelencia en Honduras",
 		description: "Servicios legales, notariales y administrativos de la más alta calidad en Tegucigalpa. Transparencia, ética y responsabilidad social.",
 		url: "https://bufetevalladares.com",
 		siteName: "Bufete y Notaría Valladares",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Bufete Valladares | Asesoría Legal y Litigio de Excelencia",
+		title: "Bufete Valladares | Asesoría Legal y Notarial de Excelencia",
 		description: "Firma legal y notaría de reconocido prestigio en Tegucigalpa. Ética jurídica y resultados.",
 		images: ["/images/torre-alianza.webp"]
 	}

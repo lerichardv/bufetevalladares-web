@@ -11,7 +11,7 @@ El ejercicio de la función notarial en Honduras trasciende la simple formalizac
 
 ### Certeza Jurídica como Atractor de Inversión
 
-La fe pública delegada en el Notario ofrece a las partes contratantes la garantía de que el acto celebrado se ajusta a la legalidad vigente, confirmando la identidad, capacidad jurídica y libre consentimiento de los comparecientes. En la constitución de sociedades mercantiles, esta labor preventiva del Notario evita futuros litigios y asegura la validez de los pactos sociales.
+La fe pública delegada en el Notario ofrece a las partes contratantes la garantía de que el acto celebrado se ajusta a la legalidad vigente, confirmando la identidad, capacidad jurídica y libre consentimiento de los comparecientes. En la constitución de sociedades mercantiles, esta labor preventiva del Notario evita futuros Notarials y asegura la validez de los pactos sociales.
 
 ### Modernización y Retos en la Práctica Notarial
 
