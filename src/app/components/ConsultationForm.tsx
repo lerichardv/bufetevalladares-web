@@ -11,13 +11,27 @@ export default function ConsultationForm() {
 		message: "",
 	});
 	const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+	const [errorMessage, setErrorMessage] = useState("");
 
-	const handleSubmit = (e: React.FormEvent) => {
+	const handleSubmit = async (e: React.FormEvent) => {
 		e.preventDefault();
 		setStatus("submitting");
+		setErrorMessage("");
 
-		// Simulate API call
-		setTimeout(() => {
+		try {
+			const res = await fetch("/api/contact", {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json",
+				},
+				body: JSON.stringify(formData),
+			});
+
+			if (!res.ok) {
+				const data = await res.json();
+				throw new Error(data.error || "Ocurrió un error al enviar el mensaje.");
+			}
+
 			setStatus("success");
 			setFormData({
 				name: "",
@@ -26,7 +40,11 @@ export default function ConsultationForm() {
 				area: "legales",
 				message: "",
 			});
-		}, 1500);
+		} catch (err: any) {
+			console.error("Error submitting form:", err);
+			setErrorMessage(err.message || "Ocurrió un error inesperado. Por favor, intente de nuevo.");
+			setStatus("error");
+		}
 	};
 
 	return (
@@ -151,6 +169,12 @@ export default function ConsultationForm() {
 							className="w-full bg-brand-navy-dark/90 border border-brand-navy-light/80 focus:border-brand-gold focus:ring-1 focus:ring-brand-gold rounded-lg px-4 py-3 text-sm text-white placeholder-zinc-600 outline-none transition-all duration-300 resize-none"
 						/>
 					</div>
+
+					{status === "error" && (
+						<div className="bg-red-950/40 border border-red-900/50 text-red-200 text-xs px-4 py-2.5 rounded-lg text-center leading-relaxed">
+							{errorMessage}
+						</div>
+					)}
 
 					<button
 						type="submit"

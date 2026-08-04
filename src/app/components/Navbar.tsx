@@ -82,7 +82,7 @@ export default function Navbar() {
 							<svg className="w-3.5 h-3.5 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 								<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
 							</svg>
-							Lunes a Viernes 8AM - 5PM
+							Lunes a Viernes 8AM - 5PM | Sábados con Cita
 						</span>
 						<a
 							href="https://wa.me/50433494077"

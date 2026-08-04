@@ -23,6 +23,7 @@ export default function HomeClient() {
 
 	useEffect(() => {
 		setIsMounted(true);
+		console.log("Dummy Env Var Value:", process.env.NEXT_PUBLIC_DUMMY_VAR);
 
 		// Dynamically inject Twitter script on mount
 		const script = document.createElement("script");
@@ -363,7 +364,7 @@ export default function HomeClient() {
 								<svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
 									<path fillRule="evenodd" d="M6.267 3.455a.75.75 0 00-.708-.523H4.5a.75.75 0 00-.75.75v3a.75.75 0 00.75.75h1.06a.75.75 0 00.708-.523L6.5 6.5h3v3h-3a.75.75 0 00-.75.75v1.06a.75.75 0 00.523.708l.412.137-.412.138a.75.75 0 00-.523.708v1.06a.75.75 0 00.75.75h3v3h-3a.75.75 0 00-.75.75v1.06a.75.75 0 00.523.708l.412.137A1.5 1.5 0 008.25 20h3.5a1.5 1.5 0 001.463-1.137l.412-1.37a.75.75 0 00-.523-.708v-1.06a.75.75 0 00.75-.75h3v-3h-3a.75.75 0 00-.75-.75v-1.06a.75.75 0 00.523-.708l.412-.138-.412-.137A.75.75 0 0013.5 10.25v-1.06a.75.75 0 00-.75-.75h-3v-3h3a.75.75 0 00.75-.75V3.682a.75.75 0 00-.75-.75h-1.06a.75.75 0 00-.708.523L11.5 4.5h-3L8.267 3.455z" clipRule="evenodd" />
 								</svg>
-								Bufete Legal y Notarial • 40+ Años de Excelencia
+								Bufete Legal y Notarial • 35+ Años de Excelencia
 							</div>
 
 							<h1 ref={heroTitleRef} className="text-4xl sm:text-4xl md:text-6xl font-serif text-white tracking-tight leading-[1.25] font-bold">
@@ -461,28 +462,28 @@ export default function HomeClient() {
 
 							<div className="space-y-2">
 								<div className="text-4xl md:text-5xl font-serif font-bold text-brand-gold leading-none">
-									<span className="counter-number" data-target="40">0</span>+
+									<span className="counter-number" data-target="35">0</span>+
 								</div>
 								<p className="text-xs text-zinc-400 uppercase tracking-widest font-semibold mt-1">Años Experiencia Legal</p>
 							</div>
 
 							<div className="space-y-2">
 								<div className="text-4xl md:text-5xl font-serif font-bold text-brand-gold leading-none">
-									<span className="counter-number" data-target="30">0</span>+
+									<span className="counter-number" data-target="25">0</span>+
 								</div>
 								<p className="text-xs text-zinc-400 uppercase tracking-widest font-semibold mt-1">Años Experiencia Notarial</p>
 							</div>
 
 							<div className="space-y-2">
 								<div className="text-4xl md:text-5xl font-serif font-bold text-brand-gold leading-none">
-									<span className="counter-number" data-target="40">0</span>+
+									<span className="counter-number" data-target="35">0</span>+
 								</div>
 								<p className="text-xs text-zinc-400 uppercase tracking-widest font-semibold mt-1">Años Gestión Administrativa</p>
 							</div>
 
 							<div className="space-y-2">
 								<div className="text-4xl md:text-5xl font-serif font-bold text-brand-gold leading-none">
-									<span className="counter-number" data-target="40">0</span>+
+									<span className="counter-number" data-target="35">0</span>+
 								</div>
 								<p className="text-xs text-zinc-400 uppercase tracking-widest font-semibold mt-1">Años Trayectoria Laboral</p>
 							</div>
@@ -856,7 +857,7 @@ export default function HomeClient() {
 									<p className="text-xs text-brand-gold-dark font-semibold uppercase tracking-wider">Director Legal, Abogado y Notario</p>
 								</div>
 								<p className="text-zinc-600 text-xs leading-relaxed font-light">
-									Socio Fundador. Lidera el bufete con más de 40 años de experiencia legal y 30 años en el ejercicio notarial en Honduras.
+									Socio Fundador. Lidera el bufete con más de 35 años de experiencia legal y 25 años en el ejercicio notarial en Honduras.
 								</p>
 							</div>
 
@@ -1021,9 +1022,9 @@ export default function HomeClient() {
 											<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
 										</div>
 										<div>
-											<p className="text-[10px] text-zinc-500 tracking-wider uppercase font-semibold">Líneas Directas</p>
-											<a href="tel:+50422357306" className="text-sm font-semibold text-white hover:text-brand-gold font-serif mt-0.5 transition-colors block">+504 2235-7306</a>
-											<p className="text-xs text-zinc-400 font-mono mt-0.5">Celular: <a href="https://wa.me/50433494077" target="_blank" rel="noopener noreferrer" className="hover:text-brand-gold transition-colors font-medium font-sans">+504 3349-4077</a></p>
+											<p className="text-[10px] text-zinc-500 tracking-wider uppercase font-semibold">Línea Directa</p>
+											<a href="https://wa.me/50433494077" target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-white hover:text-brand-gold font-serif mt-0.5 transition-colors block">+504 3349-4077</a>
+											<p className="text-xs text-zinc-400 font-mono mt-0.5">WhatsApp / Celular</p>
 										</div>
 									</div>
 

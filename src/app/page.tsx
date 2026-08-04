@@ -3,7 +3,7 @@ import HomeClient from "./components/HomeClient";
 
 export const metadata: Metadata = {
 	title: "Bufete Valladares | Asesoría Legal y Litigio de Excelencia en Honduras",
-	description: "Firma de abogados y notaría de prestigio en Tegucigalpa, Honduras. Más de 40 años de excelencia en derecho civil, laboral, trámites notariales y administrativos.",
+	description: "Firma de abogados y notaría de prestigio en Tegucigalpa, Honduras. Más de 35 años de excelencia en derecho civil, laboral, trámites notariales y administrativos.",
 	keywords: [
 		"bufete de abogados Honduras",
 		"abogados en Tegucigalpa",

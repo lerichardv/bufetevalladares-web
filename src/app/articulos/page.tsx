@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ArticulosClient from "../components/ArticulosClient";
+import { BlogService } from "../../lib/blog";
 
 export const metadata: Metadata = {
 	title: "Opinión Legal y Artículos | Bufete y Notaría Valladares",
@@ -39,5 +40,17 @@ export const metadata: Metadata = {
 };
 
 export default function ArticulosPage() {
-	return <ArticulosClient />;
+	const articles = BlogService.getAllArticles();
+	
+	// Convert full articles to listing-friendly model
+	const initialArticles = articles.map(article => ({
+		title: article.title,
+		excerpt: article.excerpt,
+		date: article.date,
+		readTime: article.readTime,
+		category: article.category,
+		slug: article.slug
+	}));
+
+	return <ArticulosClient initialArticles={initialArticles} />;
 }

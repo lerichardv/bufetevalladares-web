@@ -92,9 +92,9 @@ export default function ContactoPage() {
 									</svg>
 								</div>
 								<div>
-									<p className="text-[10px] text-zinc-500 tracking-wider uppercase font-semibold">Líneas Directas</p>
-									<a href="tel:+50422357306" className="text-sm font-semibold text-white hover:text-brand-gold font-serif mt-0.5 transition-colors block">+504 2235-7306</a>
-									<p className="text-xs text-zinc-400 font-mono mt-0.5">Celular: <a href="https://wa.me/50433494077" target="_blank" rel="noopener noreferrer" className="hover:text-brand-gold transition-colors font-medium font-sans">+504 3349-4077</a></p>
+									<p className="text-[10px] text-zinc-500 tracking-wider uppercase font-semibold">Línea Directa</p>
+									<a href="https://wa.me/50433494077" target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-white hover:text-brand-gold font-serif mt-0.5 transition-colors block">+504 3349-4077</a>
+									<p className="text-xs text-zinc-400 font-mono mt-0.5">WhatsApp / Celular</p>
 								</div>
 							</div>
 
@@ -140,7 +140,8 @@ export default function ContactoPage() {
 							<h3 className="text-xs font-bold tracking-widest text-brand-gold uppercase mb-3">Horario de Oficina</h3>
 							<p className="text-xs text-zinc-300 font-light leading-relaxed">
 								Lunes a Viernes: 8:00 AM - 5:00 PM <br />
-								Sábados y Domingos: Cerrado (Atención de emergencias vía telefónica)
+								Sábados: Solo con cita previa <br />
+								Domingos: Cerrado (Atención de emergencias vía telefónica)
 							</p>
 						</div>
 					</div>

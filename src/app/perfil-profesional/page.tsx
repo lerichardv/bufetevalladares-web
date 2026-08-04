@@ -4,7 +4,7 @@ import Breadcrumbs from "../components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Perfil Profesional y Experiencia | Bufete y Notaría Valladares",
-  description: "Conozca nuestra trayectoria de más de 40 años. Especializados en derecho civil, laboral, trámites administrativos, licencias ambientales, registros sanitarios y derecho notarial en Honduras.",
+  description: "Conozca nuestra trayectoria de más de 35 años. Especializados en derecho civil, laboral, trámites administrativos, licencias ambientales, registros sanitarios y derecho notarial en Honduras.",
   keywords: [
     "trayectoria legal Honduras",
     "Santiago Valladares Argueta",
@@ -80,7 +80,7 @@ export default function PerfilProfesional() {
                   Bufete y Notaría Valladares
                 </h2>
                 <p className="text-zinc-700">
-                  El Bufete y Notaría Valladares, esta ubicado en el Edificio Torre Alianza Anexo local 710, Boulevard San Juan Bosco, colonia lomas del guijarro sur, Tegucigalpa, teléfono <a href="tel:+50422357306" className="text-brand-navy-dark font-medium hover:text-brand-gold transition-colors">+504 2235-7306</a>, celular <a href="tel:+50499821117" className="text-brand-navy-dark font-medium hover:text-brand-gold transition-colors">+504 9982-1117</a>, correo electrónico <a href="mailto:bufete_valladares@yahoo.com" className="text-brand-navy-dark font-medium hover:text-brand-gold transition-colors">bufete_valladares@yahoo.com</a>, de la Ciudad de Tegucigalpa.
+                  El Bufete y Notaría Valladares, esta ubicado en el Edificio Torre Alianza Anexo local 710, Boulevard San Juan Bosco, colonia lomas del guijarro sur, Tegucigalpa, celular <a href="tel:+50499821117" className="text-brand-navy-dark font-medium hover:text-brand-gold transition-colors">+504 9982-1117</a>, correo electrónico <a href="mailto:bufete_valladares@yahoo.com" className="text-brand-navy-dark font-medium hover:text-brand-gold transition-colors">bufete_valladares@yahoo.com</a>, de la Ciudad de Tegucigalpa.
                 </p>
               </div>
 
