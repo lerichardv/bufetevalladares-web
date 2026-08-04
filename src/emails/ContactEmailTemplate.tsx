@@ -29,7 +29,7 @@ export const ContactEmailTemplate = ({
 	message,
 }: ContactEmailTemplateProps) => {
 	const previewText = `Nueva Consulta Legal: ${area.toUpperCase()} - ${name}`;
-	const logoUrl = "https://bufetevalladares.com/images/bufete-logo-wide.png";
+	const logoUrl = "https://bufeteynotariavalladares.com/images/bufete-logo-wide.png";
 
 	return (
 		<Html>
